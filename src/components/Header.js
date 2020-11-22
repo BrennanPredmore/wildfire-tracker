@@ -5,9 +5,10 @@ const Header = () => {
   return (
     <header className='header'>
       <h1>
-        <Icon icon={locationIcon} /> WildFire Tracker (Powered by NASA)
-        <Icon icon={locationIcon} />
-      </h1>
+        <Icon icon={locationIcon} /> WildFire Tracker{' '}
+        <Icon icon={locationIcon} />      </h1>
+        <br /> <h3>(Powered by NASA)</h3> 
+
     </header>
   );
 };
